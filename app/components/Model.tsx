@@ -25,7 +25,7 @@ const Model = () => {
         (actions["Experiment"].getClip().duration * scroll.offset) / 4)
   );
   return (
-    <group ref={group} scale={1.4}>
+    <group ref={group} scale={1.5}>
       <primitive object={scene} />
     </group>
   );
